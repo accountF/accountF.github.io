@@ -261,3 +261,43 @@ h1, h2, h3, h4, h5 {
 .dhx_sample-form-group  {
     padding-bottom: 0;
 }
+
+
+
+
+
+.dhx_sample-controls > * {
+    max-width: 240px;
+}
+
+.dhx_sample-result {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.dhx_sample-form-group {
+    width: auto;
+}
+
+.dhx_sample-input {
+    min-width: 100px;
+}
+
+.icon {
+    margin-left: 8px;
+}
+
+.dhx_sample-result textarea {
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    font-size: 16px;
+    resize: none;
+}
+
+.dhx_sample-result textarea:focus {
+    outline: 0;
+}
