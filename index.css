@@ -1,3 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    color: rgba(0, 0, 0, .7);
+    font-weight: 500;
+}
+
 .dhx_sample-container__widget {
     display: flex;
     justify-content: center;
@@ -95,17 +106,6 @@
 
 .dhx_form-group:not(:last-child) {
     margin-right: 24px;
-}
-
-.dhx_radiobutton__input {
-    position: absolute;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    width: 1px;
-    margin: -1px;
-    padding: 0;
-    border: 0;
 }
 
 .dhx_sample-input__wrapper--pl-16 {
