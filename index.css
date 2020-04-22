@@ -178,3 +178,7 @@
 .dhx_sample-input::placeholder {
     color: rgba(0, 0, 0, .7);
 }
+
+dhx_sample-button-container {
+    padding: 20px 0px 0px 100px;
+}
