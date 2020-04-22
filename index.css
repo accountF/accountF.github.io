@@ -250,3 +250,10 @@ h1, h2, h3, h4, h5 {
     height: 200px;
     margin: 8px 0;
 }
+
+
+.dhx_sample-container__combobox-widget {
+    padding: 40px;
+    width: 300px;
+    margin: auto
+}
