@@ -216,3 +216,23 @@
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
 }
+
+
+
+
+.dhx_sample-container__colorpicker-widget {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dhx_demo_helper {
+    padding: 15px 0 7px 0;
+}
+
+.dhx_color-sample {
+    width: 200px;
+    height: 200px;
+    margin: 8px 0;
+}
