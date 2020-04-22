@@ -9,6 +9,20 @@ h1, h2, h3, h4, h5 {
     font-weight: 500;
 }
 
+.dhx_sample-event {
+    font-family: Roboto,Arial,Tahoma,Verdana,sans-serif;
+    margin-bottom: 8px;
+    margin-top: 0;
+    padding: 8px;
+    -webkit-animation: fadeIn .8s;
+    animation: fadeIn .8s;
+    border: 1px solid #FFF;
+    border-radius: 2px;
+    background: #F2F2F2;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
 .dhx_sample-container__widget {
     display: flex;
     justify-content: center;
