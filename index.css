@@ -80,3 +80,19 @@
     -ms-flex-align: center;
     align-items: center;
 }
+
+dhx_sample-container__calendar-left {
+    margin-right: 20px;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+dhx_sample-container__calendar-right {
+    margin-right: 20px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
