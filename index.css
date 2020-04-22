@@ -81,7 +81,7 @@
     align-items: center;
 }
 
-dhx_sample-container__calendar-left {
+.dhx_sample-container__calendar-left {
     margin-right: 20px;
     -webkit-box-pack: end;
     -webkit-justify-content: flex-end;
@@ -89,7 +89,7 @@ dhx_sample-container__calendar-left {
     justify-content: flex-end;
 }
 
-dhx_sample-container__calendar-right {
+.dhx_sample-container__calendar-right {
     margin-right: 20px;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
