@@ -98,22 +98,6 @@ h1, h2, h3, h4, h5 {
     align-items: center;
 }
 
-.dhx_sample-container__calendar-left {
-    margin-right: 20px;
-    -webkit-box-pack: end;
-    -webkit-justify-content: flex-end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-}
-
-.dhx_sample-container__calendar-right {
-    margin-right: 20px;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-}
-
 .dhx_sample-input {
     margin-right: 10px;
     -webkit-appearance: none;
@@ -211,12 +195,33 @@ h1, h2, h3, h4, h5 {
     overflow-y: auto;
 }
 
+/*calendar*/
+
+.dhx_sample-container__calendar-left {
+    margin-right: 20px;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.dhx_sample-container__calendar-right {
+    margin-right: 20px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+/*chart*/
+
 .dhx_sample-container__chart-widget {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
 }
 
+/*colorpicker*/
 
 .dhx_sample-container__colorpicker-widget {
     display: flex;
@@ -276,6 +281,7 @@ h1, h2, h3, h4, h5 {
     outline: 0;
 }
 
+/*dataview*/
 
 .dhx_sample-container__dataview-widget {
     height: 600px;
@@ -306,6 +312,7 @@ h1, h2, h3, h4, h5 {
     padding: 0 8px;
 }
 
+/*form*/
 
 .dhx_sample-container__form-widget {
     padding: 20px;
@@ -316,6 +323,7 @@ h1, h2, h3, h4, h5 {
     flex: 0 0 auto;
 }
 
+/*treegrid*/
 
 .dhx_sample-container__treegrid-widget {
     width: 100%;
@@ -332,8 +340,7 @@ h1, h2, h3, h4, h5 {
     height: 600px;
 }
 
-
-
+/*tree*/
 
 .dhx_sample-container__tree-widget {
     padding: 3%;
