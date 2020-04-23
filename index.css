@@ -298,7 +298,7 @@ h1, h2, h3, h4, h5 {
 .dhx_sample-container__dataview-widget-grid, .dhx_sample-container__form-grid {
     height: 600px;
     width: 300px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .dhx_sample-container__dataview-widget .item_wrap .image, .dhx_sample-container__dataview-widget-grid .item_wrap .image{
