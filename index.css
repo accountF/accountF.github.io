@@ -337,7 +337,19 @@ h1, h2, h3, h4, h5 {
     height: 100%
 }
 
-.dhx_sample-treegrid-container {
+.dhx_sample-container--treegrid {
     height: 600px;
 }
+
+
+.max_cell {
+    background: #f44336;
+    color: #FFF;
+}
+
+.min_cell {
+    background: #4CAF50;
+    color: #FFF
+}
+
 
