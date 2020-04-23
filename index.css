@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .dhx_sample-event {
-    font-family: Roboto,Arial,Tahoma,Verdana,sans-serif;
+    font-family: Roboto, Arial, Tahoma, Verdana, sans-serif;
     margin-bottom: 8px;
     margin-top: 0;
     padding: 8px;
@@ -225,8 +225,6 @@ h1, h2, h3, h4, h5 {
 }
 
 
-
-
 .dhx_sample-container__colorpicker-widget {
     display: flex;
     flex-direction: column;
@@ -251,7 +249,7 @@ h1, h2, h3, h4, h5 {
     margin: auto
 }
 
-.dhx_sample-form-group  {
+.dhx_sample-form-group {
     padding-bottom: 0;
     width: auto;
 }
@@ -294,9 +292,10 @@ h1, h2, h3, h4, h5 {
 .dhx_sample-container__dataview-widget {
     height: 600px;
     width: 600px;
+    padding: 10px;
 }
 
-.dhx_sample-container__dataview-widget .item_wrap .image{
+.dhx_sample-container__dataview-widget .item_wrap .image {
     width: 100px;
     height: auto;
     float: left;
