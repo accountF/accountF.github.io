@@ -329,3 +329,10 @@ h1, h2, h3, h4, h5 {
 .dhx_layout-cell--gravity {
     flex: 0 0 auto;
 }
+
+
+
+.dhx_sample-container__treegrid-widget {
+    width: 100%;
+    height: 100%
+}
