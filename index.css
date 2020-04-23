@@ -295,7 +295,13 @@ h1, h2, h3, h4, h5 {
     padding: 10px;
 }
 
-.dhx_sample-container__dataview-widget .item_wrap .image {
+.dhx_sample-container__dataview-widget-grid{
+    height: 600px;
+    width: 400px;
+    padding: 10px;
+}
+
+.dhx_sample-container__dataview-widget .item_wrap .image, .dhx_sample-container__dataview-widget-grid .item_wrap .image{
     width: 100px;
     height: auto;
     float: left;
