@@ -315,8 +315,6 @@ h1, h2, h3, h4, h5 {
 }
 
 
-
-
 .dhx_sample-container__form-widget {
     padding: 20px;
     height: 100%;
@@ -331,6 +329,12 @@ h1, h2, h3, h4, h5 {
 .dhx_sample-container__treegrid-widget {
     width: 100%;
     height: 100%
+}
+
+.dhx_sample-container__treegrid-widget-grid {
+    width: 270px;
+    height: 600px;
+    margin-right: 20px;
 }
 
 .dhx_sample-container--treegrid {
