@@ -321,7 +321,7 @@ h1, h2, h3, h4, h5 {
 
 
 
-.dhx_sample-container__form-widget {
+.dhx_sample-container__form-widget, form-widget {
     padding: 20px;
     height: 100%;
 }
