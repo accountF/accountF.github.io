@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5 {
     white-space: pre-wrap;
 }
 
-.dhx_sample-container__widget, .dhx_sample-container__tree-widget{
+.dhx_sample-container__widget {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -333,3 +333,8 @@ h1, h2, h3, h4, h5 {
 }
 
 
+
+
+.dhx_sample-container__tree-widget {
+    padding: 3%;
+}
