@@ -317,3 +317,11 @@ h1, h2, h3, h4, h5 {
     align-items: center;
     padding: 0 8px;
 }
+
+
+
+
+.dhx_sample-container__form-widget {
+    padding: 20px;
+    height: 100%;
+}
