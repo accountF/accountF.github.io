@@ -325,3 +325,7 @@ h1, h2, h3, h4, h5 {
     padding: 20px;
     height: 100%;
 }
+
+.dhx_layout-cell--gravity {
+    flex: 0 0 auto;
+}
