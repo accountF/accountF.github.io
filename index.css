@@ -434,6 +434,7 @@ h1, h2, h3, h4, h5 {
     padding-bottom: 4px;
     padding-top: 12px;
 }
+
 #tabbar .image {
     width: 100px;
     height: 100px;
@@ -468,6 +469,7 @@ h1, h2, h3, h4, h5 {
     resize: none;
     padding: 20px;
 }
+
 .dhx_textarea-with-sidebar:focus {
     outline: 0;
 }
@@ -479,6 +481,39 @@ h1, h2, h3, h4, h5 {
     margin: 0;
     height: calc(100vh - 61px);
 }
+
 .dhx_sample-container-sidebar .dhx_form-group:not(:last-child) {
     margin-right: 0;
+}
+
+.sidebar-with-custom-html .user-info_container {
+    padding-top: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sidebar-with-custom-html .user-info_avatar {
+    height: 40px;
+    width: 40px;
+}
+
+.sidebar-with-custom-html .user-info_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 8px;
+}
+
+.sidebar-with-custom-html .user-info_contact {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 28px;
+    color: rgba(0, 0, 0, 0.5);
 }
