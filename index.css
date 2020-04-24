@@ -537,6 +537,14 @@ h1, h2, h3, h4, h5 {
     margin-right: 20px;
 }
 
+.dhx_sample-container__sidebar-for-sidebar {
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    width: 400px;
+    height: 600px;
+}
+
 .sidebar-contact .rounded-item-avatar {
     height: 32px;
     width: 32px;
