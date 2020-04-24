@@ -541,6 +541,26 @@ h1, h2, h3, h4, h5 {
     margin-right: 8px;
 }
 
-.sidebar-contact .dhx_sidebar--minimized .item-avatar {
+.sidebar-contact .dhx_sidebar--minimized .dhx_navbar-title{
+    opacity: 1;
+}
+
+.sidebar-contact .dhx_sidebar--minimized .rounded-item-avatar{
     margin: 0;
+}
+
+.sidebar-contact .dhx_sidebar--minimized .item-name {
+    display: none;
+}
+
+.sidebar-contact .dhx_sidebar-button__html{
+    padding-left: 6px;
+}
+
+.sidebar-contact .dhx_sidebar--minimized .dhx_sidebar-button__html{
+    padding-left: 0;
+}
+
+.sidebar-contact .dhx_sidebar__item button{
+    padding: 6px;
 }
