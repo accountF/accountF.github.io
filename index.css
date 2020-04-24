@@ -9,6 +9,22 @@ h1, h2, h3, h4, h5 {
     font-weight: 500;
 }
 
+[class*="dhx_sample"] {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+    box-sizing: border-box;
+}
+
 .dhx_sample-event {
     font-family: Roboto, Arial, Tahoma, Verdana, sans-serif;
     margin-bottom: 8px;
