@@ -479,6 +479,6 @@ h1, h2, h3, h4, h5 {
     margin: 0;
     height: calc(100vh - 61px);
 }
-.dhx_sample-container-sidebar. dhx_form-group:not(:last-child) {
+.dhx_sample-container-sidebar .dhx_form-group:not(:last-child) {
     margin-right: 0;
 }
