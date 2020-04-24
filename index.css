@@ -576,3 +576,20 @@ h1, h2, h3, h4, h5 {
 .sidebar-contact .dhx_sidebar__item button{
     padding: 6px;
 }
+
+/*ribbon*/
+
+.dhx_sample-form-container-ribbon {
+    width: 400px;
+    background:#fff;
+    margin: 40px;
+    padding: 10px;
+}
+
+.dhx_sample-form-container-ribbon select {
+    width: 395px;
+}
+
+.dhx_sample-form-container-ribbon input {
+    width: 380px;
+}
