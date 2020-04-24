@@ -533,6 +533,10 @@ h1, h2, h3, h4, h5 {
     left: 50%;
 }
 
+.dhx_sample_controls-for-sidebar button {
+    margin-right: 20px;
+}
+
 .sidebar-contact .rounded-item-avatar {
     height: 32px;
     width: 32px;
