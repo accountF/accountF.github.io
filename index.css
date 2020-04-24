@@ -386,3 +386,7 @@ h1, h2, h3, h4, h5 {
 .dhx_sample-container__toolbar-widget .dhx_toolbar-button:hover {
     background-color: transparent;
 }
+
+.dhx_sample-container__toolbar-widget .dhx_navbar {
+    margin-left: 15px;
+}
