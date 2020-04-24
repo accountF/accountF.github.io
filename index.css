@@ -486,7 +486,7 @@ h1, h2, h3, h4, h5 {
     margin-right: 0;
 }
 
-.dhx_sample-container-sidebar .dhx_form-group:last-child {
+.dhx_form-group:last-child {
     width: 238px;
 }
 
