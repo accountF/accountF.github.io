@@ -396,3 +396,10 @@ h1, h2, h3, h4, h5 {
     max-width: 270px;
     padding: 20px;
 }
+
+/*timepicker*/
+
+.dhx_sample-container__timepicker-widget {
+    width: 270px;
+    padding: 20px;
+}
