@@ -391,3 +391,8 @@ h1, h2, h3, h4, h5 {
     margin-left: 15px;
     margin-right: 15px;
 }
+
+.dhx_sample-container__toolbar-form-widget {
+    max-width: 270px;
+    padding: 20px;
+}
