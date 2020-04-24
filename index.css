@@ -443,7 +443,7 @@ h1, h2, h3, h4, h5 {
 
 /*sidebar*/
 
-.dhx_sample-container-sidebar {
+.dhx_sample-container-for-navigation-items {
     height: calc(100vh - 61px);
     margin-top: 0;
     border-left: 1px solid #D7D7D7;
@@ -460,7 +460,7 @@ h1, h2, h3, h4, h5 {
     height: calc(100vh - 61px);
 }
 
-.dhx_textarea-in-sidebar {
+.dhx_textarea-with-sidebar {
     width: calc(100% - 40px);
     height: calc(100% - 40px);
     font-size: 18px;
@@ -468,11 +468,11 @@ h1, h2, h3, h4, h5 {
     resize: none;
     padding: 20px;
 }
-.dhx_textarea-in-sidebar:focus {
+.dhx_textarea-with-sidebar:focus {
     outline: 0;
 }
 
-.dhx_sample-container-sidebar__sidebar {
+.dhx_sample-container-for-navigation-items__sidebar {
     border-right: none;
     border-top: none;
     border-bottom: none;
