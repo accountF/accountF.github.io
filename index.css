@@ -440,3 +440,45 @@ h1, h2, h3, h4, h5 {
     float: left;
     margin-right: 12px;
 }
+
+/*sidebar*/
+
+.dhx_sample-container-sidebar {
+    height: calc(100vh - 61px);
+    margin-top: 0;
+    border-left: 1px solid #D7D7D7;
+    border-right: 1px solid #D7D7D7;
+}
+
+.dhx_sample-container__sidebar-widget {
+    width: fit-content;
+    height: calc(100vh - 61px);
+}
+
+.dhx_sample-container__result {
+    width: 100%;
+    height: calc(100vh - 61px);
+}
+
+.dhx_textarea-in-sidebar {
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    font-size: 18px;
+    border: none;
+    resize: none;
+    padding: 20px;
+}
+.dhx_textarea-in-sidebar:focus {
+    outline: 0;
+}
+
+.dhx_sample-container-sidebar__sidebar {
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    margin: 0;
+    height: calc(100vh - 61px);
+}
+.dhx_sample-container-sidebar. dhx_form-group:not(:last-child) {
+    margin-right: 0;
+}
