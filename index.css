@@ -358,3 +358,31 @@ h1, h2, h3, h4, h5 {
     background: #fff;
     max-width: 260px;
 }
+
+.dhx_sample-container__toolbar-widget .user-button {
+    padding: 4px 16px;
+    border-radius: 4px;
+    border: solid 1px #bbbbbb;
+    display: flex;
+    align-items: center;
+}
+
+.dhx_sample-container__toolbar-widget .user-button:hover {
+    transition: opacity .2s ease-out;
+    border: 1px solid #636363;
+}
+
+.dhx_sample-container__toolbar-widget .user-avatar {
+    border-radius: 100px;
+    height: 24px;
+    width: 24px;
+}
+
+.dhx_sample-container__toolbar-widget .user-name {
+    color: #616161;
+    margin-left: 8px;
+}
+
+.dhx_sample-container__toolbar-widget .dhx_toolbar-button:hover {
+    background-color: transparent;
+}
