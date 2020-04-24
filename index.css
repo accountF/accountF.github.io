@@ -532,3 +532,11 @@ h1, h2, h3, h4, h5 {
     transform: translate(-50%, 0);
     left: 50%;
 }
+
+.sidebar-contact .rounded-item-avatar {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 8px;
+}
