@@ -685,3 +685,13 @@ h1, h2, h3, h4, h5 {
     width: 90%;
     margin: 40px;
 }
+
+.dhx_sample-container__menu-widget .custom-image {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.dhx_sample-container__menu-widget .custom-image img {
+    max-height: 36px;
+}
