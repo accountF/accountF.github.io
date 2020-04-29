@@ -487,9 +487,9 @@ h1, h2, h3, h4, h5 {
     margin-right: 0;
 }
 
-.dhx_form-group:last-child {
-    width: 238px;
-}
+/*.dhx_form-group:last-child {*/
+/*    width: 238px;*/
+/*}*/
 
 .sidebar-with-custom-html .user-info_container {
     padding-top: 8px;
