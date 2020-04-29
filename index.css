@@ -600,7 +600,7 @@ h1, h2, h3, h4, h5 {
 
 /*popup*/
 
-.dhx_sample-form-container-popup {
+.dhx_sample-popup-container {
     flex-direction: column;
     justify-content: flex-start;
     max-width: 400px;
