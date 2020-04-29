@@ -811,18 +811,18 @@ h1, h2, h3, h4, h5 {
     flex: 1 1 auto;
 }
 
-.dhx_sample-container__helpers-widget .dhx_layout-cell--gravity {
+.dhx_sample-container__helpers-await-redraw-widget .dhx_layout-cell--gravity {
     flex: 1 1 auto;
 }
 
-.dhx_sample-container__helpers-widget .image {
+.dhx_sample-container__helpers-await-redraw-widget .image {
     width: 100px;
     height: 100px;
     float: left;
     margin-right: 12px;
 }
 
-.dhx_sample-container__helpers-widget .item-wrap {
+.dhx_sample-container__helpers-await-redraw-widget .item-wrap {
     width: 330px;
     height: 108px;
     padding-top: 4px;
