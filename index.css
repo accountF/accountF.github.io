@@ -777,7 +777,7 @@ h1, h2, h3, h4, h5 {
 
 /*layout*/
 
-.dhx_layout-cell-content:not(.dhx_layout-cell) {
+.dhx_layout-cell-content {
     padding: 12px;
 }
 
