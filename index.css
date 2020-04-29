@@ -828,3 +828,22 @@ h1, h2, h3, h4, h5 {
     padding-top: 4px;
     padding-left: 4px;
 }
+
+
+.dhx_sample-container__helpers-widget {
+    width: 100%;
+    height: calc(100% - 121px);
+}
+
+.left {
+    background: #0080004d;
+}
+.center {
+    background: #ff000033;
+}
+.right {
+    background: #87ceeb4d;
+}
+.toolbar {
+    background: #ffff004d;
+}
