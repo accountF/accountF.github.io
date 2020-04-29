@@ -597,3 +597,19 @@ h1, h2, h3, h4, h5 {
 .dhx_sample-form-container-ribbon input {
     width: 380px;
 }
+
+/*popup*/
+
+.dhx_sample-form-container-popup {
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 400px;
+}
+
+.box {
+    padding: 20px;
+    margin-top: 20px;
+    height: 100px;
+    border: 1px solid #dedede;
+    display: inline-block;
+}
