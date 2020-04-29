@@ -851,12 +851,15 @@ h1, h2, h3, h4, h5 {
 .left {
     background: #0080004d;
 }
+
 .center {
     background: #ff000033;
 }
+
 .right {
     background: #87ceeb4d;
 }
+
 .toolbar {
     background: #ffff004d;
 }
