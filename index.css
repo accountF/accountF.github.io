@@ -678,3 +678,10 @@ h1, h2, h3, h4, h5 {
 .form-section button:first-child {
     margin-right: 20px;
 }
+
+/*menu*/
+
+.dhx_sample-container__menu-widget {
+    width: 90%;
+    margin: 40px;
+}
