@@ -847,3 +847,71 @@ h1, h2, h3, h4, h5 {
 .toolbar {
     background: #ffff004d;
 }
+
+/*helpers icon*/
+
+.dhx_sample-icon-container {
+    display: block;
+    background: #fff;
+    height: auto;
+    min-height: 600px;
+    max-width: 1200px;
+    padding: 50px;
+    column-count: 3;
+    margin: 0;
+}
+
+.dhx_sample-icon-container .icon-card {
+    flex: 1 1 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.dhx_sample-icon-container .dxi {
+    display: inline-block;
+    margin-right: 0.75rem;
+    pointer-events: none;
+    transition: transform 0.3s ease-in-out;
+    will-change: transform;
+}
+
+.dhx_sample-icon-container .dxi:before {
+    font-size: 28px;
+    line-height: 28px;
+}
+
+.dhx_sample-icon-container .icon-caption {
+    pointer-events: none;
+    line-height: 28px;
+    transition: color 0.2s ease;
+}
+
+.dhx_sample-icon-container button {
+    overflow: visible;
+    position: relative;
+    text-decoration: none;
+    font-size: 16px;
+
+    background-image: none;
+    background-color: #fff;
+    border: 0;
+    touch-action: manipulation;
+    -webkit-appearance: none;
+    user-select: auto;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+}
+
+.dhx_sample-icon-container button:hover .icon-caption {
+    color: #03a9f4;
+}
+
+.dhx_sample-icon-container button:hover .dxi {
+    transform: scale(1.2, 1.2)
+}
+
+.dhx_sample-icon-container button:focus, button:active {
+    outline: none;
+}
