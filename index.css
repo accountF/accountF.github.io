@@ -769,7 +769,7 @@ h1, h2, h3, h4, h5 {
     height: 300px;
 }
 
-.dhx_sample-container__list-widget-grid {
+.dhx_sample-container__list-widget-grid, .dhx_sample-container__form-widget-grid {
     width: 250px;
     height: 600px;
     margin-right: 20px;
