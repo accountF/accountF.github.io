@@ -623,3 +623,27 @@ h1, h2, h3, h4, h5 {
     border: 1px solid #a6a6a6;
     text-align: center;
 }
+
+.dhx_message .custom-message {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.dhx_message .custom-message svg {
+    margin-right: 12px;
+    margin-top: 10px;
+}
