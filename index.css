@@ -804,14 +804,20 @@ h1, h2, h3, h4, h5 {
 
 /*helpers*/
 
-.dhx_sample-container__widget .image {
+.dhx_sample-container__helpers-widget {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.dhx_sample-container__helpers-widget .image {
     width: 100px;
     height: 100px;
     float: left;
     margin-right: 12px;
 }
 
-.dhx_sample-container__widget .item-wrap {
+.dhx_sample-container__helpers-widget .item-wrap {
     width: 330px;
     height: 108px;
     padding-top: 4px;
