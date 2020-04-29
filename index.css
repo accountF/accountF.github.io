@@ -831,7 +831,7 @@ h1, h2, h3, h4, h5 {
 
 /*helpers resizer*/
 
-.dhx_sample-container__helpers-resizer-widget {
+.dhx_sample-container__helpers-resizer-widget, .dhx_sample-container__layout-widget{
     width: 100%;
     height: calc(100% - 121px);
     -webkit-box-flex: 1;
@@ -839,7 +839,8 @@ h1, h2, h3, h4, h5 {
     flex: 1 1 auto;
 }
 
-.dhx_sample-container__helpers-resizer-widget .dhx_layout-cell--gravity {
+.dhx_sample-container__helpers-resizer-widget .dhx_layout-cell--gravity,
+.dhx_sample-container__layout-widget .dhx_layout-cell--gravity {
     flex: 1 1 auto;
 }
 
