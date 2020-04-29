@@ -607,12 +607,21 @@ h1, h2, h3, h4, h5 {
     max-width: 400px;
 }
 
-.box {
+.rect-box {
     padding: 20px;
     margin-top: 20px;
     height: 100px;
     border: 1px solid #dedede;
     display: inline-block;
+}
+
+.square-box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #dedede;
+    display: inline-block;
+    text-align: center;
+    line-height: 200px;
 }
 
 /*message*/
