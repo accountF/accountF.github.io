@@ -768,3 +768,9 @@ h1, h2, h3, h4, h5 {
     border: 1px solid black;
     height: 300px;
 }
+
+.dhx_sample-container__list-widget {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
