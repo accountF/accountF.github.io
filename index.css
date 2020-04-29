@@ -781,6 +781,10 @@ h1, h2, h3, h4, h5 {
     padding: 12px;
 }
 
+.layout-box-grid {
+    width: 50%;
+}
+
 /*.dhx_sample-container {*/
 /*    height: 600px;*/
 /*}*/
