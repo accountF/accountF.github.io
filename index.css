@@ -710,3 +710,22 @@ h1, h2, h3, h4, h5 {
     padding-left: 12px;
     margin-right: 8px;
 }
+
+.dhx_sample-container__box-menu-widget {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 24px;
+    padding: 20px;
+    border: 1px solid black;
+    height: 300px;
+}
