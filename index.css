@@ -793,10 +793,27 @@ h1, h2, h3, h4, h5 {
 /*    max-width: 200px;*/
 /*}*/
 
-.layout-dataview .dhx_dataview-item .image{
+.layout-dataview .dhx_dataview-item .image {
     width: 100%;
 }
 
 .layout-dataview .dhx_dataview-item {
     width: 230px;
+}
+
+
+/*helpers*/
+
+.dhx_sample-container__widget .image {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 12px;
+}
+
+.dhx_sample-container__widget .item-wrap {
+    width: 330px;
+    height: 108px;
+    padding-top: 4px;
+    padding-left: 4px;
 }
