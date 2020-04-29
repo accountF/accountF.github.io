@@ -700,11 +700,13 @@ h1, h2, h3, h4, h5 {
     display: flex;
     align-items: center;
 }
-.dhx_sample-container__menu-widget .menu-item{
+
+.dhx_sample-container__menu-widget .menu-item {
     vertical-align: middle;
     margin-right: 4px;
 }
-.dhx_sample-container__menu-widget .context-menu-item{
+
+.dhx_sample-container__menu-widget .context-menu-item {
     padding-left: 12px;
     margin-right: 8px;
 }
