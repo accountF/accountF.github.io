@@ -804,11 +804,11 @@ h1, h2, h3, h4, h5 {
 
 /*helpers*/
 
-.dhx_sample-container__helpers-widget {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-}
+/*.dhx_sample-container__helpers-widget {*/
+/*    -webkit-box-flex: 1;*/
+/*    -ms-flex: 1 1 auto;*/
+/*    flex: 1 1 auto;*/
+/*}*/
 
 .dhx_sample-container__helpers-widget .image {
     width: 100px;
