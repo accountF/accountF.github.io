@@ -774,3 +774,17 @@ h1, h2, h3, h4, h5 {
     height: 600px;
     margin-right: 20px;
 }
+
+/*layout*/
+
+.dhx_layout-cell-content:not(.dhx_layout-cell) {
+    padding: 12px;
+}
+
+.dhx_sample-layout-container {
+    height: 600px;
+}
+
+.dhx_layout-form-group--inline {
+    max-width: 200px;
+}
