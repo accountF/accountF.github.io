@@ -792,3 +792,11 @@ h1, h2, h3, h4, h5 {
 /*.dhx_form-group--inline {*/
 /*    max-width: 200px;*/
 /*}*/
+
+.layout-dataview .dhx_dataview-item .image{
+    width: 106px;
+}
+
+.layout-dataview .dhx_dataview-item {
+    width: 230px;
+}
