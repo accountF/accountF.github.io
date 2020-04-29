@@ -667,3 +667,13 @@ h1, h2, h3, h4, h5 {
     line-height: 398px;
     overflow: hidden;
 }
+
+.form-controls .form-section {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.form-controls .form-section button:first-child {
+    margin-right: 20px;
+}
