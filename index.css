@@ -643,7 +643,16 @@ h1, h2, h3, h4, h5 {
     -ms-flex-align: center;
     align-items: center;
 }
+
 .dhx_message .custom-message svg {
     margin-right: 12px;
     margin-top: 10px;
+}
+
+.dhx_sample-container .message-config {
+    width:  250px;
+    height: 120px;
+    padding: 20px;
+    font-size: 16px;
+    resize: none;
 }
