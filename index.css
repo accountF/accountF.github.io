@@ -988,11 +988,11 @@ h1, h2, h3, h4, h5 {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    background-color: rgba(247, 247, 247, 0);
     height: 60px;
     width: 100%;
     border-bottom: 1px solid #DFDFDF;
     position: relative;
+    background: #fff;
 }
 
 .radio-group-block {
