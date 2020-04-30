@@ -336,7 +336,7 @@ h1, h2, h3, h4, h5 {
     height: 100%;
 }
 
-.dhx_layout-cell--gravity {
+.dhx_sample-container__form-widget .dhx_layout-cell--gravity {
     flex: 0 0 auto;
 }
 
