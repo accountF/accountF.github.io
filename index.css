@@ -1002,7 +1002,6 @@ h1, h2, h3, h4, h5 {
 .text-value {
     display: inline-block;
     color: rgba(0, 0, 0, 0.7);
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
     line-height: 24px;
@@ -1018,7 +1017,6 @@ h1, h2, h3, h4, h5 {
 .radio-label {
     margin: 0 0 0 4px;
     color: rgba(0, 0, 0, 0.7);
-    font-family: Roboto;
     font-size: 14px;
     line-height: 24px;
 }
@@ -1069,7 +1067,6 @@ h1, h2, h3, h4, h5 {
 
 .droparea-text {
     color: rgba(0, 0, 0, 0.7);
-    font-family: Roboto;
     font-size: 18px;
     font-weight: 500;
     line-height: 24px;
@@ -1082,9 +1079,24 @@ h1, h2, h3, h4, h5 {
     border-radius: 2px;
     background-color: #FFFFFF;
     margin: 0 40px 0 12px;
-    color: rgba(0,0,0,0.7);
-    font-family: Roboto;
+    color: rgba(0, 0, 0, 0.7);
     font-size: 14px;
     line-height: 20px;
 }
 
+.filter-input {
+    height: 28px;
+    width: 440px;
+    border: 1px solid #DFDFDF;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 0 0 8px;
+}
+
+.small-filter-input {
+    width: 200px;
+    margin: 0 0 0 12px;
+}
