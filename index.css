@@ -980,3 +980,64 @@ h1, h2, h3, h4, h5 {
 .dhx_sample-container__bordered-window-widget {
     outline: 1px solid #a6a6a6;
 }
+
+/*vault*/
+
+.top-rect-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgba(247, 247, 247, 0);
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid #DFDFDF;
+    position: relative;
+}
+
+.radio-group-block {
+    display: flex;
+}
+
+.text-value {
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.radio-block {
+    display: flex;
+    margin: 0 0 0 12px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.radio-label {
+    margin: 0 0 0 4px;
+    color: rgba(0,0,0,0.7);
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.checked .radio {
+    color: #0288D1;
+}
+
+.radio {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.container {
+    width: 440px;
+    height: 400px;
+    box-sizing: border-box;
+    margin: 100px auto 0 auto;
+}
