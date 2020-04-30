@@ -1125,3 +1125,17 @@ h1, h2, h3, h4, h5 {
     border: 1px solid #dfdfdf;
     box-sizing: border-box;
 }
+
+.event {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 4px 4px 0 4px;
+}
+
+.info {
+    width: 100%;
+    border-bottom: 1px solid #cecece;
+    padding: 0 8px 4px 8px;
+    color: rgba(0, 0, 0, .38);
+    box-sizing: border-box;
+}
