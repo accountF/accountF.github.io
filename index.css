@@ -98,6 +98,9 @@ h1, h2, h3, h4, h5 {
     line-height: 24px;
     font-weight: 500;
     position: relative;
+}
+
+.dhx_sample-label, .dhx_sample-radio__label {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -116,7 +119,6 @@ h1, h2, h3, h4, h5 {
 }
 
 .dhx_sample-input {
-    margin-right: 10px;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -184,7 +186,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .dhx_sample-button-container {
-    padding: 20px 0px 0px 100px;
+    padding: 20px 0 0 100px;
 }
 
 .dhx_sample-container__sidebar {
@@ -198,7 +200,6 @@ h1, h2, h3, h4, h5 {
     line-height: 1.3;
     overflow-y: auto;
 }
-
 
 .dhx_sample-textarea {
     resize: none;
@@ -505,7 +506,6 @@ h1, h2, h3, h4, h5 {
 }
 
 .sidebar-with-custom-html .user-info_title {
-    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -514,7 +514,6 @@ h1, h2, h3, h4, h5 {
 }
 
 .sidebar-with-custom-html .user-info_contact {
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -1178,21 +1177,6 @@ h1, h2, h3, h4, h5 {
     line-height: 24px;
     position: relative;
     display: block;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 24px;
-    margin: 0 0 0 4px;
-    padding: 0 5px;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    color: rgba(0, 0, 0, .7);
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
 }
 
 .dhx_sample-radio__input {
