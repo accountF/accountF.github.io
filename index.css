@@ -1075,3 +1075,16 @@ h1, h2, h3, h4, h5 {
     line-height: 24px;
 }
 
+.select-list {
+    width: 100px;
+    height: 28px;
+    border: 1px solid #DFDFDF;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    margin: 0 40px 0 12px;
+    color: rgba(0,0,0,0.7);
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 20px;
+}
+
