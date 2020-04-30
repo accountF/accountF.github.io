@@ -1139,3 +1139,11 @@ h1, h2, h3, h4, h5 {
     color: rgba(0, 0, 0, .38);
     box-sizing: border-box;
 }
+
+/*pivot*/
+
+.dhx_sample-container__pivot-widget {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
