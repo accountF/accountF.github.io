@@ -1100,3 +1100,15 @@ h1, h2, h3, h4, h5 {
     width: 200px;
     margin: 0 0 0 12px;
 }
+
+.info-line {
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+}
+
+.number-value {
+    display: inline-block;
+    color: #4C4C4C;
+}
