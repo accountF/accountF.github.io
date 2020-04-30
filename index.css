@@ -966,3 +966,14 @@ h1, h2, h3, h4, h5 {
     border: 1px solid #d2d2d2;
     font-weight: bold;
 }
+
+.dhx_sample-container__window-widget {
+    height: 400px;
+    outline: 1px solid #a6a6a6;
+    position: relative;
+    text-align: center;
+    line-height: 398px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
