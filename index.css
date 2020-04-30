@@ -930,3 +930,34 @@ h1, h2, h3, h4, h5 {
 .dhx_sample-icon-container button:focus, button:active {
     outline: none;
 }
+
+/*grid*/
+
+.dhx_sample-container__grid-widget, .dhx_sample-container__info {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.dhx_sample-container__info > div:first-child {
+    padding-left: 8px;
+    padding-top: 2px;
+    height: 100%;
+}
+
+.dhx_sample-container__info .dhx_sample-info {
+    align-items: center;
+    padding: 6px 0;
+    line-height: 24px;
+}
+
+.dhx_sample-container__info .hotkey {
+    margin-right: 8px;
+    background-color: #e8e8e8;
+    width: fit-content;
+    text-align: center;
+    padding: 0 8px;
+    border-radius: 2px;
+    border: 1px solid #d2d2d2;
+    font-weight: bold;
+}
