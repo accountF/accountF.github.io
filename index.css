@@ -4,6 +4,10 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+html, body {
+    background: #fff;
+}
+
 h1, h2, h3, h4, h5 {
     color: rgba(0, 0, 0, .7);
     font-weight: 500;
