@@ -1369,3 +1369,37 @@ h1, h2, h3, h4, h5 {
     word-wrap: break-word;
     white-space: pre-wrap;
 }
+
+.network-diagram-widget .template {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #F7F7F7;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #DFDFDF;
+    overflow: hidden;
+}
+
+.network-diagram-widget .template span {
+    font-weight: 300;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    text-align: center;
+}
+
+.network-diagram-widget .template span:not(:last-child) {
+    font-weight: 500;
+    margin-top: 16px;
+}
+
+.network-diagram-widget .template img {
+    width: 64px;
+    height: 64px;
+    pointer-events: none;
+    border-radius: 50%;
+}
