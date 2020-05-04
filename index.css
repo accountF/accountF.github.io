@@ -1237,7 +1237,7 @@ h1, h2, h3, h4, h5 {
 
 /*diagram*/
 
-.mixed-diagram-widget .template {
+.mixed-org-chart-diagram-widget .template {
     height: 100%;
     display: flex;
     align-items: center;
@@ -1248,11 +1248,11 @@ h1, h2, h3, h4, h5 {
     padding: 10px 12px;
 }
 
-.mixed-diagram-widget .template span {
+.mixed-org-chart-diagram-widget .template span {
     display: flex;
 }
 
-.mixed-diagram-widget .template h3, .mixed-diagram-widget .template p {
+.mixed-org-chart-diagram-widget .template h3, .mixed-org-chart-diagram-widget .template p {
     text-align: left;
     font-size: 14px;
     line-height: 20px;
@@ -1263,24 +1263,24 @@ h1, h2, h3, h4, h5 {
     white-space: nowrap;
 }
 
-.mixed-diagram-widget .template_container {
+.mixed-org-chart-diagram-widget .template_container {
     height: 100%;
     width: 100%;
     overflow: hidden;
 }
 
-.mixed-diagram-widget .template_img-container {
+.mixed-org-chart-diagram-widget .template_img-container {
     min-width: 93px;
     width: 93px;
     margin-right: 12px;
 }
 
-.mixed-diagram-widget .template_img-container img {
+.mixed-org-chart-diagram-widget .template_img-container img {
     width: inherit;
     height: auto;
 }
 
-.mixed-diagram-widget .template_icon {
+.mixed-org-chart-diagram-widget .template_icon {
     height: 20px;
     width: 20px;
     margin-right: 4px;
