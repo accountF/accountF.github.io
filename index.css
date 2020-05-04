@@ -1313,3 +1313,14 @@ h1, h2, h3, h4, h5 {
     margin: 5px 0 0 20px;
     white-space: nowrap;
 }
+
+.diagram-mixed .template {
+    height: 100%;
+    background: rgb(206, 239, 225);
+    border: 2px solid rgb(10, 177, 105);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
