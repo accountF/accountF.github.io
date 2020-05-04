@@ -1304,6 +1304,7 @@ h1, h2, h3, h4, h5 {
 
 .html-template-diagram-widget .template ul {
     padding: 8px 5px 5px 5px;
+    margin: 0;
 }
 
 .html-template-diagram-widget .template li {
