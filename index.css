@@ -1233,3 +1233,54 @@ h1, h2, h3, h4, h5 {
     margin-top: 20px;
     padding: 10px;
 }
+
+/*diagram*/
+
+.diagram-widget .template {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    color: rgba(0, 0, 0, 0.7);
+    border: 1px solid #DFDFDF;
+    padding: 10px 12px;
+}
+
+.diagram-widget .template span {
+    display: flex;
+}
+
+.diagram-widget .template h3, .diagram-widget .template p {
+    text-align: left;
+    font-size: 14px;
+    line-height: 20px;
+    height: 20px;
+    margin: 0 0 4px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.diagram-widget .template_container {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.diagram-widget .template_img-container {
+    min-width: 93px;
+    width: 93px;
+    margin-right: 12px;
+}
+
+.diagram-widget .template_img-container img {
+    width: inherit;
+    height: auto;
+}
+
+.diagram-widget .template_icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 4px;
+}
