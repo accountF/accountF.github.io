@@ -1216,3 +1216,13 @@ h1, h2, h3, h4, h5 {
 .dhx_sample-radio__input:checked ~ .dhx_sample-radio__label:after {
     opacity: 1;
 }
+
+/*richtext*/
+
+#toolbar-blocks .dhx_checkbox__visual-input-inline {
+    display: inline-block;
+}
+
+#toolbar-blocks .dhx_form-group:not(:last-child), .dhx_form-group:last-child {
+    margin: 17px 5px 0 0;
+}
