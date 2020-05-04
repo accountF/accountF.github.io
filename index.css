@@ -1421,3 +1421,32 @@ h1, h2, h3, h4, h5 {
 #diagram .dxi {
     color: #888;
 }
+
+.yes_line .dhx_diagram_arrow, .yes_line .dhx_diagram_line {
+    fill: #38B551;
+    stroke: #38B551;
+}
+.no_line .dhx_diagram_arrow, .no_line .dhx_diagram_line {
+    fill: #E10000;
+    stroke: #E10000;
+}
+.yes_circle .dhx_item_shape {
+    fill: #38B551;
+    stroke: none;
+}
+.yes_circle text {
+    fill: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+.no_circle .dhx_item_shape {
+    fill: red;
+    stroke: none;
+}
+.no_circle text {
+    fill: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
