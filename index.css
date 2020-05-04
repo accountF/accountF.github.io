@@ -63,7 +63,6 @@ h1, h2, h3, h4, h5 {
     border-bottom: 1px solid #DFDFDF;
     font-family: Roboto, Arial, Tahoma, Verdana, sans-serif;
     font-size: 14px;
-    background-color: #FFF;
 }
 
 .dhx_form-group:not(:last-child) {
