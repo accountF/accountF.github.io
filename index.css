@@ -1278,7 +1278,13 @@ h1, h2, h3, h4, h5 {
     margin-right: 12px;
 }
 
-.diagram-widget .template_img-container img {
+.diagram-widget .template_img-container-medium {
+    min-width: 44px;
+    width: 44px;
+    margin-right: 12px;
+}
+
+.diagram-widget .template_img-container img, .template_img-container-medium img {
     width: inherit;
     height: auto;
 }
@@ -1492,3 +1498,4 @@ h1, h2, h3, h4, h5 {
 .dhx_sample-combobox-for-diagram__container .dhx_combobox {
     margin: 0;
 }
+
