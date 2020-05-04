@@ -1303,14 +1303,16 @@ h1, h2, h3, h4, h5 {
 }
 
 .diagram-widget .template_icon,
-.editor .shapesbar .template_icon
+.editor .shapesbar .template_icon,
 .dhx_item_shape .template_icon {
     height: 20px;
     width: 20px;
     margin-right: 4px;
 }
 
-.uml-diagram-widget .template {
+.uml-diagram-widget .template,
+.editor .shapesbar .template,
+.dhx_item_shape .template {
     height: 100%;
     background: rgb(206, 239, 225);
     border: 2px solid rgb(10, 177, 105);
@@ -1318,7 +1320,9 @@ h1, h2, h3, h4, h5 {
     overflow: hidden;
 }
 
-.uml-diagram-widget .template h3 {
+.uml-diagram-widget .template h3,
+.editor .shapesbar .template h3,
+.dhx_item_shape .template h3 {
     text-align: center;
     height: 40px;
     line-height: 40px;
@@ -1326,12 +1330,16 @@ h1, h2, h3, h4, h5 {
     border-bottom: 2px solid rgb(10, 177, 105);
 }
 
-.uml-diagram-widget .template ul {
+.uml-diagram-widget .template ul,
+.editor .shapesbar .template ul,
+.dhx_item_shape .template ul {
     padding: 8px 5px 5px 5px;
     margin: 0;
 }
 
-.uml-diagram-widget .template li {
+.uml-diagram-widget .template li,
+.editor .shapesbar .template li,
+.dhx_item_shape .template li {
     text-align: left;
     list-style-type: circle;
     margin: 5px 0 0 20px;
