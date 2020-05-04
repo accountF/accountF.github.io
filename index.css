@@ -1484,7 +1484,7 @@ h1, h2, h3, h4, h5 {
     border-width: 0 1px 1px 1px;
 }
 
-.dhx_sample-container__diagram-widget .dhx_selected .template {
+.dhx_selected .template {
     outline: 2px solid #8c8c8c;
 }
 
