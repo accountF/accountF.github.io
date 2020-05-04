@@ -1284,3 +1284,30 @@ h1, h2, h3, h4, h5 {
     width: 20px;
     margin-right: 4px;
 }
+
+.html-template-diagram-widget .template {
+    height: 100%;
+    background: rgb(206, 239, 225);
+    border: 2px solid rgb(10, 177, 105);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.html-template-diagram-widget .template h3 {
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    background: rgb(206, 239, 225);
+    border-bottom: 2px solid rgb(10, 177, 105);
+}
+
+.html-template-diagram-widget .template ul {
+    padding: 8px 5px 5px 5px;
+}
+
+.html-template-diagram-widget .template li {
+    text-align: left;
+    list-style-type: circle;
+    margin: 5px 0 0 20px;
+    white-space: nowrap;
+}
