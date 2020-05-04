@@ -1349,6 +1349,7 @@ h1, h2, h3, h4, h5 {
 
 .dhx_sample-diagram-widget-editor {
     height: 100%;
+    display: none;
 }
 
 .life-cycle-diagram-widget .template {
