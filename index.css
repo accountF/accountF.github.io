@@ -1237,7 +1237,7 @@ h1, h2, h3, h4, h5 {
 
 /*diagram*/
 
-.mixed-org-chart-diagram-widget .template {
+.diagram-widget .template {
     height: 100%;
     display: flex;
     align-items: center;
@@ -1248,11 +1248,11 @@ h1, h2, h3, h4, h5 {
     padding: 10px 12px;
 }
 
-.mixed-org-chart-diagram-widget .template span {
+.diagram-widget .template span {
     display: flex;
 }
 
-.mixed-org-chart-diagram-widget .template h3, .mixed-org-chart-diagram-widget .template p {
+.diagram-widget .template h3, .diagram-widget .template p {
     text-align: left;
     font-size: 14px;
     line-height: 20px;
@@ -1263,30 +1263,30 @@ h1, h2, h3, h4, h5 {
     white-space: nowrap;
 }
 
-.mixed-org-chart-diagram-widget .template_container {
+.diagram-widget .template_container {
     height: 100%;
     width: 100%;
     overflow: hidden;
 }
 
-.mixed-org-chart-diagram-widget .template_img-container {
+.diagram-widget .template_img-container {
     min-width: 93px;
     width: 93px;
     margin-right: 12px;
 }
 
-.mixed-org-chart-diagram-widget .template_img-container img {
+.diagram-widget .template_img-container img {
     width: inherit;
     height: auto;
 }
 
-.mixed-org-chart-diagram-widget .template_icon {
+.diagram-widget .template_icon {
     height: 20px;
     width: 20px;
     margin-right: 4px;
 }
 
-.html-template-diagram-widget .template {
+.green-diagram-widget .template {
     height: 100%;
     background: rgb(206, 239, 225);
     border: 2px solid rgb(10, 177, 105);
@@ -1294,7 +1294,7 @@ h1, h2, h3, h4, h5 {
     overflow: hidden;
 }
 
-.html-template-diagram-widget .template h3 {
+.green-diagram-widget .template h3 {
     text-align: center;
     height: 40px;
     line-height: 40px;
@@ -1302,12 +1302,12 @@ h1, h2, h3, h4, h5 {
     border-bottom: 2px solid rgb(10, 177, 105);
 }
 
-.html-template-diagram-widget .template ul {
+.green-diagram-widget .template ul {
     padding: 8px 5px 5px 5px;
     margin: 0;
 }
 
-.html-template-diagram-widget .template li {
+.green-diagram-widget .template li {
     text-align: left;
     list-style-type: circle;
     margin: 5px 0 0 20px;
