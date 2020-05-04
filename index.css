@@ -1236,7 +1236,7 @@ h1, h2, h3, h4, h5 {
 
 /*diagram*/
 
-.diagram-widget .template {
+.mixed-diagram-widget .template {
     height: 100%;
     display: flex;
     align-items: center;
@@ -1247,11 +1247,11 @@ h1, h2, h3, h4, h5 {
     padding: 10px 12px;
 }
 
-.diagram-widget .template span {
+.mixed-diagram-widget .template span {
     display: flex;
 }
 
-.diagram-widget .template h3, .diagram-widget .template p {
+.mixed-diagram-widget .template h3, .mixed-diagram-widget .template p {
     text-align: left;
     font-size: 14px;
     line-height: 20px;
@@ -1262,24 +1262,24 @@ h1, h2, h3, h4, h5 {
     white-space: nowrap;
 }
 
-.diagram-widget .template_container {
+.mixed-diagram-widget .template_container {
     height: 100%;
     width: 100%;
     overflow: hidden;
 }
 
-.diagram-widget .template_img-container {
+.mixed-diagram-widget .template_img-container {
     min-width: 93px;
     width: 93px;
     margin-right: 12px;
 }
 
-.diagram-widget .template_img-container img {
+.mixed-diagram-widget .template_img-container img {
     width: inherit;
     height: auto;
 }
 
-.diagram-widget .template_icon {
+.mixed-diagram-widget .template_icon {
     height: 20px;
     width: 20px;
     margin-right: 4px;
