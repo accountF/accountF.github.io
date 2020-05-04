@@ -1289,7 +1289,7 @@ h1, h2, h3, h4, h5 {
     margin-right: 4px;
 }
 
-.green-diagram-widget .template {
+.uml-diagram-widget .template {
     height: 100%;
     background: rgb(206, 239, 225);
     border: 2px solid rgb(10, 177, 105);
@@ -1297,7 +1297,7 @@ h1, h2, h3, h4, h5 {
     overflow: hidden;
 }
 
-.green-diagram-widget .template h3 {
+.uml-diagram-widget .template h3 {
     text-align: center;
     height: 40px;
     line-height: 40px;
@@ -1305,12 +1305,12 @@ h1, h2, h3, h4, h5 {
     border-bottom: 2px solid rgb(10, 177, 105);
 }
 
-.green-diagram-widget .template ul {
+.uml-diagram-widget .template ul {
     padding: 8px 5px 5px 5px;
     margin: 0;
 }
 
-.green-diagram-widget .template li {
+.uml-diagram-widget .template li {
     text-align: left;
     list-style-type: circle;
     margin: 5px 0 0 20px;
