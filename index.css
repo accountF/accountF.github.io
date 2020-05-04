@@ -1455,3 +1455,10 @@ h1, h2, h3, h4, h5 {
     font-size: 12px;
     font-weight: 500;
 }
+
+#messages {
+    border: solid 1px #f2f2f2;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+}
