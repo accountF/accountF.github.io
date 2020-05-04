@@ -1347,3 +1347,21 @@ h1, h2, h3, h4, h5 {
 .dhx_sample-diagram-widget-editor {
     height: 100%;
 }
+
+.life-cycle-diagram-widget .template {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.life-cycle-diagram-widget .template span {
+    text-align: center;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
