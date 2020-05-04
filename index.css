@@ -1515,8 +1515,6 @@ h1, h2, h3, h4, h5 {
 }
 
 .sidebar__container {
-    min-width: 240px;
-    width: 240px;
     height: 100%;
     background: #fff;
     border-left: 1px solid #DFDFDF;
