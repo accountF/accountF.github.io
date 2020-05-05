@@ -981,6 +981,14 @@ h1, h2, h3, h4, h5 {
     outline: 1px solid #a6a6a6;
 }
 
+#grid .trash {
+    color: #0288d1;
+}
+
+#grid .trash:hover {
+    color: #483D8B;
+}
+
 /*vault*/
 
 .top-rect-block {
