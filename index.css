@@ -1227,7 +1227,7 @@ h1, h2, h3, h4, h5 {
     display: inline-block;
 }
 
-#toolbar-blocks .dhx_form-group:not(:last-child), .dhx_form-group:last-child {
+#toolbar-blocks .dhx_form-group:not(:last-child) {
     margin: 17px 5px 0 0;
 }
 
