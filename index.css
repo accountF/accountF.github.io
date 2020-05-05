@@ -19,13 +19,9 @@ h1, h2, h3, h4, h5 {
     -webkit-text-size-adjust: none;
     -moz-text-size-adjust: none;
     -ms-text-size-adjust: none;
-    /* Support for all WebKit browsers. */
     -webkit-font-smoothing: antialiased;
-    /* Support for Safari and Chrome. */
     text-rendering: optimizeLegibility;
-    /* Support for Firefox. */
     -moz-osx-font-smoothing: grayscale;
-    /* Support for IE. */
     font-feature-settings: 'liga';
     box-sizing: border-box;
 }
@@ -242,14 +238,6 @@ h1, h2, h3, h4, h5 {
     -ms-flex-pack: start;
     justify-content: flex-start;
 }
-
-/*chart*/
-
-/*.dhx_sample-container__chart-widget {*/
-/*    -webkit-box-flex: 1;*/
-/*    -ms-flex: 1 1 auto;*/
-/*    flex: 1 1 auto;*/
-/*}*/
 
 /*colorpicker*/
 
@@ -499,10 +487,6 @@ h1, h2, h3, h4, h5 {
 .dhx_sample-container-sidebar .dhx_form-group:not(:last-child) {
     margin-right: 0;
 }
-
-/*.dhx_form-group:last-child {*/
-/*    width: 238px;*/
-/*}*/
 
 .sidebar-with-custom-html .user-info_container {
     padding-top: 8px;
@@ -797,10 +781,6 @@ h1, h2, h3, h4, h5 {
     padding: 20px;
 }
 
-/*.dhx_sample-container__layout-widget .dhx_layout-cell--gravity {*/
-/*    flex: 1 1 auto;*/
-/*}*/
-
 .dhx_layout-cell-content {
     padding: 12px;
 }
@@ -827,10 +807,6 @@ h1, h2, h3, h4, h5 {
     flex: 1 1 auto;
 }
 
-/*.dhx_sample-container__helpers-await-redraw-widget .dhx_layout-cell--gravity {*/
-/*    flex: 1 1 auto;*/
-/*}*/
-
 .dhx_sample-container__helpers-await-redraw-widget .image {
     width: 100px;
     height: 100px;
@@ -854,10 +830,6 @@ h1, h2, h3, h4, h5 {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
 }
-
-/*.dhx_sample-container__helpers-resizer-widget .dhx_layout-cell--gravity {*/
-/*    flex: 1 1 auto;*/
-/*}*/
 
 .left {
     background: #0080004d;
@@ -943,12 +915,6 @@ h1, h2, h3, h4, h5 {
 }
 
 /*grid*/
-
-/*.dhx_sample-container__grid-widget, .dhx_sample-container__info {*/
-/*    -webkit-box-flex: 1;*/
-/*    -ms-flex: 1 1 auto;*/
-/*    flex: 1 1 auto;*/
-/*}*/
 
 .dhx_sample-container__info {
     font-size: 14px;
@@ -1152,12 +1118,6 @@ h1, h2, h3, h4, h5 {
 }
 
 /*pivot*/
-
-/*.dhx_sample-container__pivot-widget {*/
-/*    -webkit-box-flex: 1;*/
-/*    -ms-flex: 1 1 auto;*/
-/*    flex: 1 1 auto;*/
-/*}*/
 
 .dhx_sample-container__sidebar-for-pivot-widget {
     -webkit-box-flex: 1;
