@@ -988,7 +988,9 @@ h1, h2, h3, h4, h5 {
     margin: 2px 0 2px 0;
     border: 1px solid rgba(229, 63, 44, 0.5);
     background-color: rgba(229, 63, 44, 0.03);
+    border-radius: 2px;
 }
+
 #grid .trash {
     color: #e53f2c;
     width: 100%;
