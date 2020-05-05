@@ -981,32 +981,6 @@ h1, h2, h3, h4, h5 {
     outline: 1px solid #a6a6a6;
 }
 
-#grid .container {
-    text-align: center;
-    width: 100%;
-    height: 90%;
-    margin: 2px 0 2px 0;
-    border: 1px solid rgba(229, 63, 44, 0.5);
-    background-color: rgba(229, 63, 44, 0.03);
-    border-radius: 2px;
-}
-
-#grid .trash {
-    color: #e53f2c;
-    width: 100%;
-    margin: 0;
-    padding: 13px 0 6px 0;
-}
-
-#grid .trash:hover {
-    color: white;
-}
-
-#grid .container:hover {
-    border: 1px solid rgba(229, 63, 44, 0.5);
-    background-color: #e53f2c;
-}
-
 /*vault*/
 
 .top-rect-block {
