@@ -488,7 +488,7 @@ h1, h2, h3, h4, h5 {
     margin-right: 0;
 }
 
-.dhx_form-group:last-child {
+.dhx_form-group .dhx_select {
     width: 238px;
 }
 
